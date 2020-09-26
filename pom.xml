@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ad-eureka-server</module>
+        <module>ad-gateway</module>
     </modules>
     <name>spring-cloud-advertisement</name>
     <description>A SpringCloud Project</description>

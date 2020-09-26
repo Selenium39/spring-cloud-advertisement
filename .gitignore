@@ -1,4 +1,5 @@
 .idea/*
 ad-eureka-server/target
+ad-gateway/target
 *.iml
 *.class
