@@ -10,6 +10,7 @@
     <modules>
         <module>ad-eureka-server</module>
         <module>ad-gateway</module>
+        <module>ad-service</module>
     </modules>
     <name>spring-cloud-advertisement</name>
     <description>A SpringCloud Project</description>
