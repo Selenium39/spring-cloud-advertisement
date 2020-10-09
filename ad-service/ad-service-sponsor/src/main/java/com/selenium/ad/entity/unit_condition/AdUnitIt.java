@@ -1,11 +1,11 @@
 package com.selenium.ad.entity.unit_condition;
+
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-
-/**
 
 @Data
 @NoArgsConstructor
