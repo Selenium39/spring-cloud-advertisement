@@ -11,3 +11,12 @@ eureka:
     #注册到eureka server
     service-url:
       defaultZone: http://localhost:8000/eureka/
+
+#网关配置
+zuul:
+  prefix: /api
+  routes:
+    sponsor:
+      path: /ad-sponsor/**  #拦截的path
+      serviceId: eureka-client-ad-sponsor #服务名
+      strip-prefix: false #是否过滤掉前缀
